@@ -16,6 +16,10 @@ header {
     padding: 0;
 }
 
+header img {
+    max-height: 90vh;
+}
+
 #btn-header{
     background: #712F79;
     color: #23B6E6;
@@ -25,6 +29,32 @@ header {
     color: #976391;
 }
 
+.btn-projetos {
+    background: #712F79;
+    color: #23B6E6;
+}
+.btn-projetos:hover {
+    color: black;
+}
+
+
+
+
+
+
+
 #profile-img{
     width: calc(150px + 10vw);
 }
+
+
+@media(max-width:760px) {
+    #container-skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        display: -ms-grid;
+        -ms-grid-
+    }
+
+}
+
